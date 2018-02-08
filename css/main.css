@@ -21,13 +21,32 @@ img {
 }
 
 .form-cont{
- width: 50%;
- height: 150px;
+ width: 60%;
+ height:300px;
+border: 3px solid;
+box-shadow: 10px 10px white, -10px -10px rgb(132, 62, 153), 0px 0px 40px 10px rgb(243, 94, 121); 
 }
 
 #msj1,#msj2,#msj3{
-    background-color: rgb(231, 143, 224);
+background-color: rgb(231, 143, 224);    
 }
+
+.bg-container{
+background-image: url('https://k31.kn3.net/taringa/2/9/6/A/7/2/KonahsFvZ/BE9.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+
+.bg-collage{
+background-image: url('http://all4desktop.com/data_images/1920%20x%201080/4182150-sunrise-in-florida.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+
 
 
 
