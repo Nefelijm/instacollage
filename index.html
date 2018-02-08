@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+        <link rel="stylesheet" href="vendors/boostrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Login</title>
 </head>
 <body>
-    
+<div class="container">
+	<div class="row ">
+		<div class="col mt-5 text-center">
+			<h3>INSTAGRAM</h3>
+		</div>
+	</div>
+	<form class="mt-5 form-cont ml-auto mr-auto">
+		<div class="form-group row">
+			<label for="inputEmail3" class="col-sm-2 col-form-label" >Email</label>
+				<div  id="msj1">
+				</div>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" id="email" placeholder="Email">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputPassword3" class="col-sm-2 col-form-label ">Password</label>
+				<div  id="msj2">		
+				</div>
+			<div class="col-sm-10">
+				<input type="password" class="form-control" id="pass" placeholder="Password">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-2">Checkbox</label>
+			<div class="col-sm-10">
+				<div class="form-check">
+					<label class="form-check-label">
+						<div  id="msj3">
+						</div>
+						<input class="form-check-input" type="checkbox" id="check"> Check me out
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row">
+			<div class="offset-sm-2 col-sm-10">
+				<button type="submit" class="btn btn-primary" id="button-form" disabled>Iniciar Sesion</button>
+			</div>
+		</div>
+	</form>
+</div> 
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+        <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+        <script src="vendors/boostrap/js/bootstrap.min.js"></script>
+        <script src="js/form.js"></script>
 </body>
 </html>

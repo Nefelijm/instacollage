@@ -1,4 +1,11 @@
 
+*{
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 img {
     width: 150px;
     height: 150px;
@@ -11,6 +18,15 @@ img {
 }
 .containImgDrag img {
     cursor: move;
+}
+
+.form-cont{
+ width: 50%;
+ height: 150px;
+}
+
+#msj1,#msj2,#msj3{
+    background-color: rgb(231, 143, 224);
 }
 
 
