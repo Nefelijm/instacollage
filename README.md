@@ -1,18 +1,15 @@
 # INSTA COLLAGE
 
-
-
 **OBJETIVO** 
-.Realizar una pagina donde le permita al usuario tener un collage personalizado.
++ Crear un collage y usar la API de HTML5 Drag and Drop (DnD). La parte superior muestra las imágenes que se arrastrarán y soltarán y en la parte de abajo están las fotos con las que el usuario podrá interactuar.
 
+## Fuentes utilizadas:
 
-##FUENTES IMPORTANTES
-
-Realmente me he ayudado con videos tutoriales, algunos foros. Pero nada como el LMS. Fue la fuente que mas utilice.
++ Lo que más se utilizó fueron videos tutoriales, algunos foros y el LMS.
 
 ### Funcionalidad
 
-**Vista desktop**
+**Flujo de la aplicación**
 ![](assets/images/img1.jpg)
 __________________________________________________________________________________________________
 
@@ -28,15 +25,8 @@ ________________________________________________________________________________
 
 ### Herramientas Utilizadas
 
-.Html5
-__________________________________________________________________________________________________
-.API geolocalización, para encontrar al usuario y trazar la ruta.
-__________________________________________________________________________________________________
-.Css3
-__________________________________________________________________________________________________
-.JS6
-__________________________________________________________________________________________________
-.Jquery
-__________________________________________________________________________________________________
-.Bootstrap4
-__________________________________________________________________________________________________
++ HTML5.
++ Javascript 5.
++ Hoja de estilos.
++ API de HTML Drag and Drop (DnD).
++ ES6.
