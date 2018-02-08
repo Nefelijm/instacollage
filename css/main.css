@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.fontext {
+    font-family: 'Salsa', cursive;
+    color: #ffffff;
+}
+
 img {
     width: 150px;
     height: 150px;
