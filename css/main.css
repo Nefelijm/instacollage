@@ -1,28 +1,10 @@
-/**  {
-margin: 0;
-padding: 0;
-}*/
-.styleImgDrag {
-    width: 31.33%;
-    height: 100px;
-    border: 1px solid #ffffff;
+
+img {
+    width: 150px;
+    height: 150px;
+    outline: 1px solid #ffffff;
 }
 
-.imgDrop {
-    width: 150px;
-    height: 150px;
-    outline: 1px solid black;
-}
-.imgDrop2 {
-    width: 150px;
-    height: 150px;
-    outline: 1px solid black;
-}
-.imgDrop3 {
-    width: 150px;
-    height: 150px;
-    outline: 1px solid black;
-}
 .containerDrop {
     height: 300px;
     

@@ -1,11 +1,11 @@
-window.addEventListener('load', () => {
+window.addEventListener('load', () => { 
 // se agrega el evento dragstart a los elementos arrastrables, y se especifican los datos de arrastre.
 
 // const imgDrag = document.getElementsByClassName('styleImgDrag');
 // const imgDrop = document.getElementsByClassName('imgDrop');
 
   document.addEventListener('dragstart', (ev) => {
-    ev.dataTransfer.setData('text', ev.target.className);
+    ev.dataTransfer.setData('key', ev.target.id);
     console.log('its dragging...');
   });
 
@@ -17,11 +17,13 @@ window.addEventListener('load', () => {
   document.addEventListener('drop', (ev) => {
   // let dropItem = ev.dataTransfer.getData('text');
     ev.preventDefault();
-    if (event.target.className === 'imgDrop') {
-      let imagen = ev.dataTransfer.getData('text');
-      event.target.appendChild(document.getElementById(imagen));
+    let imagen = ev.dataTransfer.getData('key');
+    let elem = document.getElementById(imagen);
+
+    if (ev.target.className === 'dropp') {
+      
+      ev.target.setAttribute('src', elem.src);
     }
   });
 
-// hace falta comunicar el evento dragstart con el evento drop
 });
